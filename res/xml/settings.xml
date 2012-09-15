@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="General">
+	        <ListPreference
+                	android:dependency="receiveKMAlerts"
+	                android:title="Alert Frequency..."
+	                android:summary="Frequency of KM alerts throughout ride"
+	                android:key="kmAlertFreq"
+	                android:defaultValue="5"
+	                android:entries="@array/kmAlertFreq"
+	                android:entryValues="@array/kmAlertFreqValues" />
+        </PreferenceCategory
+</PreferenceScreen

@@ -1,0 +1,24 @@
+# Android standard ignores:
+# (via http://stackoverflow.com/questions/3325736/eclipse-android-and-gitignore)
+
+# built application files
+#*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+*.cache
+
+# Keeping this in so we have a link to the latest build
+#bin/
+
+# generated files
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
