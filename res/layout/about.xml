@@ -8,16 +8,10 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="@string/title" />
-
-    <TextView
-        android:id="@+id/tvtop"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp" />
+        android:text="@string/about" />
     
     <TextView
-        android:id="@+id/tvbody"
+        android:id="@+id/about_content"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
 

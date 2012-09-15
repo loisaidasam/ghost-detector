@@ -3,12 +3,11 @@
         <PreferenceCategory
                 android:title="General">
 	        <ListPreference
-                	android:dependency="receiveKMAlerts"
-	                android:title="Alert Frequency..."
-	                android:summary="Frequency of KM alerts throughout ride"
-	                android:key="kmAlertFreq"
-	                android:defaultValue="5"
-	                android:entries="@array/kmAlertFreq"
-	                android:entryValues="@array/kmAlertFreqValues" />
-        </PreferenceCategory
-</PreferenceScreen
+	                android:title="Sensitivity"
+	                android:summary="Sensitivity of Ghost Detector to changes in the environment"
+	                android:key="sensitivity"
+	                android:defaultValue="1"
+	                android:entries="@array/sensitivities"
+	                android:entryValues="@array/sensitivitiesValues" />
+        </PreferenceCategory>
+</PreferenceScreen>

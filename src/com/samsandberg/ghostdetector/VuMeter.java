@@ -34,6 +34,10 @@ public class VuMeter extends View {
         this.changeSensitivity = changeSensitivity;
         init();
     }
+    
+    public void modifyChangeSensitivity(float changeSensitivity) {
+    	this.changeSensitivity = changeSensitivity;
+    }
 
     public void changeValue(float newValue) {
     	currentValue = newValue;
@@ -43,6 +47,8 @@ public class VuMeter extends View {
         Log.d(TAG, "indicateChange(" + newValue + ")");
         
     	float changeValue = (float)newValue * changeSensitivity;
+
+        Log.d(TAG, "changeValue=" + changeValue);
     	
 		currentValue += changeValue;
 		if (currentValue > 1){
