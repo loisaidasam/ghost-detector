@@ -1,1 +1,10 @@
-# This is my README
+# Ghost Detector!
+
+About
+-----
+
+There are several ghost detectors on the market, so why this one? All other ghost detectors look for "changes in the surrounding magnetic field" to detect ghosts, but what good is a phone for detecting changes in magnetic fields?
+
+Enter this ghost detector, which uses what phones are good at measuring: deviation in strength of the phone signal! Whenever a spirit is nearby, this detector will sense any unusual abrubt changes in the strength of the phone signal and display them on a VU meter.
+
+Use with care!
